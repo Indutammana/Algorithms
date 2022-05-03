@@ -11,7 +11,7 @@ bool isValied(int i,int j, int matrix[][3])
 } 
 void amazon() 
 { 
-    int matrix[3][3]={{1,0,0},{1,1,0},{1,1,0}}; 
+    int matrix[3][3]={{1,0,0},{1,1,0},{1,9,0}}; 
     int m=3; 
     int n=3; //step 1 always have a queue 
     queue<pair<pair<int,int>,int>>Q; 
